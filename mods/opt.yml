@@ -7,11 +7,11 @@
 - load: modrinth
   id: c2me
   project: "c2me-neoforge"
-  version: "0.4.0-alpha.0.107+1.21.1"
+  version: "0.4.0-alpha.0.115+1.21.1"
   group: "optimizations"
 
 - load: modrinth
   id: modernfix
   project: "modernfix"
-  version: "iYwIkyV5"
+  version: "VsJnrw8k"
   group: "optimizations"

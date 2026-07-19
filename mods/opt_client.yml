@@ -3,13 +3,13 @@
 - load: modrinth
   id: sodium
   project: "sodium"
-  version: "mc1.21.1-0.8.12-beta.1-neoforge"
+  version: "mc1.21.1-0.8.12-neoforge"
   group: "optimizations_client"
 
 - load: modrinth
   id: sodium_extra
   project: "sodium-extra"
-  version: "mc1.21.1-0.8.7+neoforge"
+  version: "mc1.21.1-0.9.3+neoforge"
   group: "optimizations_client"
 
 # == END SODIUM GROUP
@@ -23,7 +23,7 @@
 - load: modrinth
   id: immediately_fast
   project: "immediatelyfast"
-  version: "1.6.10+1.21.1-neoforge"
+  version: "1.6.11+1.21.1-neoforge"
   group: "optimizations_client"
 
 - load: modrinth

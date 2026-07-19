@@ -25,5 +25,5 @@
 - load: modrinth
   id: distant_horizons
   project: "distanthorizons"
-  version: "3.0.1-b-1.21.1"
+  version: "3.2.0-b-1.21.1"
   group: "pretty"
