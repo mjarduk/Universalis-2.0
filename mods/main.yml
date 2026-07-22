@@ -102,3 +102,13 @@
   id: nedologin
   project: "nedologin"
   version: "VPxEDVP2"
+
+- load: modrinth
+  id: kubejs
+  project: "kubejs"
+  version: "F2nzeC19"
+
+- load: modrinth
+  id: rhino
+  project: "rhino"
+  version: "cQ4POTah"

@@ -15,8 +15,8 @@ jobs:
         run: pip install redneck
       - name: build
         run: |
-            redneck build full
-            redneck build server
+            redneck build full -o .redneck/build/Universalis.mrpack
+            redneck build base -o .redneck/build/server.mrpack
       - name: capture build artifacts
         uses: actions/upload-artifact@v7
         with:

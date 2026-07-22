@@ -26,9 +26,6 @@ profiles:
       - optimizations
       - pretty
       - qol
-  server:
-    groups:
-      - server
   full:
     groups:
       - optimizations_client
