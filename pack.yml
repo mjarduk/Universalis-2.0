@@ -1,6 +1,6 @@
 pack:
-  id: "nedoserver"
-  name: "Nedoserver"
+  id: "universalis"
+  name: "Universalis"
   version: "2.0.0"
 
 versions:
@@ -11,7 +11,7 @@ builders:
   mrpack:
     include_files:
       - "./config/**"
-      # - "./icon.png"
+      - "./icon.png"
 
 default_profile: "full"
 
