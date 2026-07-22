@@ -33,3 +33,15 @@
   project: "jade"
   version: "15.10.5+neoforge"
   group: "qol"
+
+- load: modrinth
+  id: xaeros-minimap
+  project: "xaeros-minimap"
+  version: "neoforge-1.21.1-26.4.2"
+  group: "qol"
+
+- load: modrinth
+  id: xaeros-world-map
+  project: "xaeros-world-map"
+  version: "neoforge-1.21.1-1.44.2"
+  group: "qol"
