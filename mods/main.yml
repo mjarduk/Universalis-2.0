@@ -95,3 +95,10 @@
   id: handcrafted
   project: "handcrafted"
   version: "JfqnpP2Z"
+
+# == UTILITY
+
+- load: modrinth
+  id: nedologin
+  project: "nedologin"
+  version: "VPxEDVP2"
