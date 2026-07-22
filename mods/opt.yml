@@ -5,6 +5,12 @@
   group: "optimizations"
 
 - load: modrinth
+  id: lithium
+  project: "lithium"
+  version: "mc1.21.1-0.15.4-neoforge"
+  group: "optimizations"
+
+- load: modrinth
   id: c2me
   project: "c2me-neoforge"
   version: "0.4.0-alpha.0.115+1.21.1"
