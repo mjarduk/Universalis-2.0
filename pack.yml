@@ -12,6 +12,11 @@ builders:
     include_files:
       - "./config/**"
       - "./icon.png"
+      - src: "./vendor/*"
+        dest: "./mods/"
+      - src: "./kubejs/server_scripts/*"
+        dest: "./kubejs/server_scripts/"
+        group: "server"
 
 default_profile: "full"
 
