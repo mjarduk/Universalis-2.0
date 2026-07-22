@@ -14,7 +14,9 @@ jobs:
       - name: setup redneck
         run: pip install redneck
       - name: build
-        run: redneck build
+        run: |
+            redneck build full
+            redneck build server
       - name: capture build artifacts
         uses: actions/upload-artifact@v7
         with:
