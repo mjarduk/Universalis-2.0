@@ -16,14 +16,16 @@ builders:
 default_profile: "full"
 
 profiles:
-   server:
-      groups:
-         - optimizations
-         - pretty
-         - qol
-   full:
-     depends: "server"
-     groups:
-       - optimizations_client
-       - qol_client
-       - pretty_client
+  base:
+    groups:
+      - optimizations
+      - pretty
+      - qol
+  server:
+    groups:
+      - server
+  full:
+    groups:
+      - optimizations_client
+      - qol_client
+      - pretty_client
