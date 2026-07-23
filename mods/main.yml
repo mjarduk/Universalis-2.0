@@ -45,6 +45,11 @@
   project: "slice-and-dice"
   version: "tyVnEa75"
 
+- load: modrinth
+  id: create-ultimate-factory
+  project: "create-ultimate-factory"
+  version: "AEMRNsNS"
+
 # == HELPFUL
 
 - load: modrinth
