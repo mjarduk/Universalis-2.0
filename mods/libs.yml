@@ -47,3 +47,8 @@
   id: architectury
   project: "architectury-api"
   version: "13.0.8+neoforge"
+
+- load: modrinth
+  id: geckolib
+  project: "geckolib"
+  version: "tPkJmim6"
