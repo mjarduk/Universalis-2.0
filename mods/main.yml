@@ -80,6 +80,11 @@
   version: "E7JIkQhi"
 
 - load: modrinth
+  id: point-blank-aeronautics-compat
+  project: "point-blank-aeronautics-compat"
+  version: "1.0.0"
+
+- load: modrinth
   id: exposure
   project: "exposure"
   version: "KZR7AUbh"
