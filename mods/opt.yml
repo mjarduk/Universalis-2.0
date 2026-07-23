@@ -21,3 +21,9 @@
   project: "modernfix"
   version: "VsJnrw8k"
   group: "optimizations"
+
+- load: modrinth
+  id: bandwidthoptimizer
+  project: "bandwidthoptimizer"
+  version: "1.21.1-3.9.26.72-neoforge"
+  group: "optimizations"
