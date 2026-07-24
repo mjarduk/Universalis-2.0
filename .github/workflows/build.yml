@@ -15,8 +15,13 @@ jobs:
         run: pip install redneck
       - name: build
         run: |
-            redneck build full -o .redneck/build/Universalis.mrpack
+            redneck build full -o .redneck/build/Universalis.mrpack -b all
             redneck build base -o .redneck/build/server.mrpack
+      - name: optimize archive compression
+        run: |
+          sudo apt-get update && sudo apt-get install -y advancecomp
+          advzip --recompress --shrink-insane .redneck/build/Universalis.mrpack
+          advzip --recompress --shrink-insane .redneck/build/server.mrpack
       - name: capture build artifacts
         uses: actions/upload-artifact@v7
         with:
