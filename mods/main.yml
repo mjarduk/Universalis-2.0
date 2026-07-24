@@ -80,6 +80,11 @@
   version: "MmLbWZuv"
 
 - load: modrinth
+  id: cc-tweaked
+  project: "cc-tweaked"
+  version: "ZlZHN512"
+
+- load: modrinth
   id: vics-point-blank
   project: "vics-point-blank"
   version: "E7JIkQhi"
